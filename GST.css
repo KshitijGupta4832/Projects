@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+
+body {
+
+    background-color:rgba(180, 231, 244, 0.65);
+    padding: 20px 10px 20px 10px;
+    text-align: center;
+}
+.Heading {
+    margin-top: 2cm;
+    text-align: center;
+    font-family: 'League Gothic', sans-serif;
+    font-style: bold;
+    font-weight: 70;
+}
+
+.Price {
+    text-align: center;
+    font-family: 'League Gothic', sans-serif
+}
+
+#Cal {
+    font-family: 'League Gothic', sans-serif;
+}
+#GST{
+    font-family: 'League Gothic', sans-serif;
+}
+/*
+/* Add a black background color to the top navigation 
+.topnav {
+    background-color: #333;
+    display: inline-block;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+/* Style the links inside the navigation bar */
+/*.topnav a {
+    float: left;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'League Gothic', sans-serif;
+    font-weight: 400;
+}
+
+/* Change the color of links on hover 
+.topnav a:hover {
+    background-color: rgb(114, 201, 168);
+    color: #333;
+
+}
+img{
+    border-radius: 50%;
+}
+*/
