@@ -47,7 +47,7 @@ def MAINFUNCTION(grid, row, col):  # Inserts the num in the grid wherever needed
 
 
 if __name__ == "__main__":
-
+    print("------------------")
     grid = [[3, 0, 6, 5, 0, 8, 4, 0, 0],
             [5, 2, 0, 0, 0, 0, 0, 0, 0],
             [0, 8, 7, 0, 0, 0, 0, 3, 1],
@@ -60,5 +60,7 @@ if __name__ == "__main__":
     N = len(grid)
     if (MAINFUNCTION(grid, 0, 0)):
         Traversal(grid)
+        print("------------------")
+
     else:
         print("NO SOLUTION EXISTS")
