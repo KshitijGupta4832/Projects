@@ -46,9 +46,11 @@ def winner(x, y):
     for win in wins:
         if (total(x[win[0]], x[win[1]], x[win[2]]) == 3):
             print("\t\t\t\t\tX Won")
+            board(x,y)
             return 1
         if (total(y[win[0]], y[win[1]], y[win[2]]) == 3):
             print("\t\t\t\t\tO Won")
+            board(x,y)
             return 0
     return -1
 
