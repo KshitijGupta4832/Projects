@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Nova+Square&family=Orbitron:wght@900&display=swap');
+
+        body {
+            text-align: center;
+            padding-top: 5cm;
+            background-color: rgba(0, 0, 0, 0.91);
+        }
+
+        #Time {
+            font-size: 1.2cm;
+            font-family: "Nova Square";
+            font-style: italic;
+            background: linear-gradient(to right, orange, red, blue, rgba(94, 196, 94, 0.885), yellow, pink, rgb(195, 45, 150));
+            background-clip: text;
+            background-size: 200%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: shine 3000ms linear infinite;
+        }
+
+        #day {
+            font-size: 1.2cm;
+            font-style: italic;
+            font-family: "Nova Square";
+            background: linear-gradient(to right, orange, red, blue, rgba(94, 196, 94, 0.885), yellow, pink, rgb(195, 45, 150));
+            background-size: 200% auto;
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: shine 3000ms linear infinite;
+        }
+
+        @keyframes shine {
+            to {
+                background-position: 200%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box">
+        <div id="Time">
+
+        </div>
+        <div id="day">
+
+        </div>
+    </div>
+</body>
+<script src="Clock.js"></script>
+
+</html>
