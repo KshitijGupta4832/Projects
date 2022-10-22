@@ -6,8 +6,8 @@ function Time() {
     let ss = date.getSeconds()
     let period = "AM"//Default
     
-    if(hh>00&&hh>12){
-        hh = hh-12
+    if(hh>00&&hh>=12){
+    
         period = "PM"
     }
     // console.log(hh,mm,ss)
