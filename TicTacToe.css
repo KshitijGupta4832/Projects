@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Nova+Square&family=Orbitron:wght@900&display=swap');
+
+body {
+    background-color:rgb(6, 10, 44);
+    text-align: center;
+}
+
+#MAIN,
+#heading {
+    font-family: "Nova Square";
+    font-size: xx-large;
+    color: rgb(255, 255, 255);
+    padding-bottom: 1cm;
+}
+
+table,
+th {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse:collapse;
+    background-color: rgb(7, 25, 66);
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    display: inline-flexbox;
+    margin-right: auto;
+    color: rgb(206, 206, 36); 
+}
+
+#L1,#L5,#L3,#L7,#L9,#L4,#L2,#L8,#L6 {
+    border: 1px solid rgb(2, 225, 255);
+    
+}
+#msg {
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+}
+
+#Reset {
+    font-family: "Nova Square";
+    font-size: large;
+    border-radius: 5px;
+    
+}
+
+
+#msg {
+    color: rgb(248, 255, 60);
+    font-family: "Nova Square";
+    font-size: 1cm;
+    
+}
+#Turns{
+    color: rgb(23, 235, 243);
+    font-family: "Nova Square";
+    font-size: 0.7cm;
+    padding-bottom: 35px;
+}
